@@ -17,11 +17,12 @@ body {
 .mb2 {
     margin-bottom: 2rem;
 }
-
+/* /COMMON */
 /* MAIN */
 .container {
     width: 80%;
     margin: 0 auto;
+    min-width: 1000px;
 }
 .h-title {
     line-height: 100px;
@@ -50,6 +51,7 @@ body {
 .mail {
     text-decoration: none;
     color: cornflowerblue;
+
 }
 .card-info {
     max-width: 100%;
