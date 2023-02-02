@@ -4,3 +4,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+/* COMMON */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+/* Margin bottom 2rem */
+.mb2 {
+    margin-bottom: 2rem;
+}
+
+/* MAIN */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.h-title {
+    line-height: 100px;
+    text-align: center;
+    color: crimson;
+}
+.description {
+    text-align: center;
+}
+
+/* Team */
+.card {
+    width: calc(100% / 3 - 30px);
+    background-color: black;
+    float: left;
+    margin: 20px 15px;
+}
+.card-foto {
+    float: left;
+    display: inline-block;
+    height: 80px;
+}
+.card-info h3,.card-info p{
+    color: white;
+}
+.mail {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.card-info {
+    max-width: 100%;
+    float: left;
+    max-height: fit-content;
+    margin: .5rem;
+}
+/* /Team */
+
+/* /MAIN */
