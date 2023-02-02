@@ -54,7 +54,6 @@ body {
 .card-info {
     max-width: 100%;
     float: left;
-    max-height: fit-content;
     margin: .5rem;
 }
 /* /Team */
